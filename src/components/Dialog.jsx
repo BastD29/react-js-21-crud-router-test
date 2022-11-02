@@ -1,10 +1,10 @@
 export default function Dialog({ message, onDialog, nameProduct }) {
   return (
     <div
-        onClick={() => onDialog(false)}
+        // onClick={() => onDialog(false)}
     >
         <div
-            onClick={(e) => e.stopPropagation()}
+            // onClick={(e) => e.stopPropagation()}
         >
             <h3>{message}</h3>
             <h1>{nameProduct}</h1>
